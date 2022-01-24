@@ -1,0 +1,72 @@
+body {
+	background-color: lightslategray;
+}
+
+.main {
+	text-align: center;
+}
+
+.App {
+    border: 2px orange solid;
+    background-image: url('../images/iceland-best-waterfalls-seljalandsfoss.jpg');
+}
+
+.header {
+	color: aliceblue;
+	width: 200px;
+	background-color: indigo;
+}
+
+.inputs {
+	background-color: rebeccapurple;
+}
+
+.inputField {
+	background-color: lightsteelblue;
+	border: 2px solid lightslategrey;
+	border-radius: 10px;
+}
+
+.inputField:hover {
+	background-color: lightgray;
+}
+
+.inputButton {
+	background-color: lightslategrey;
+	border-radius: 10px;
+	color: wheat;
+	margin-top: 10px;
+}
+
+.select {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+
+.Home {
+	color: aquamarine;
+}
+
+.active {
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
+	display: flex;
+	align-items: center;
+}
+
+.active:hover {
+	background-color: cornflowerblue;
+}
+
+.active a {
+	text-align: center;
+	color: slategrey;
+	text-decoration: none;
+	margin: 0;
+}
+
+.active:hover a {
+	color: orange;
+}

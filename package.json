@@ -1,0 +1,50 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "first webpack test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "source-map-loader": "^1.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "@atlaskit/avatar": "^20.5.2",
+    "@atlaskit/button": "^16.1.4",
+    "@atlaskit/checkbox": "^12.3.5",
+    "@atlaskit/css-reset": "^6.3.2",
+    "@atlaskit/form": "^8.4.5",
+    "@atlaskit/textfield": "^5.1.4",
+    "@babel/polyfill": "^7.12.1",
+    "@hookform/resolvers": "^2.8.5",
+    "axios": "^0.24.0",
+    "final-form": "^4.20.4",
+    "react": "16.8",
+    "react-dom": "16.8",
+    "react-hook-form": "^7.21.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "stream-http": "^3.2.0",
+    "styled-components": "3.2",
+    "yup": "^0.32.11"
+  }
+}

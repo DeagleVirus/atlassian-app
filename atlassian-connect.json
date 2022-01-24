@@ -1,0 +1,29 @@
+{
+	"key": "com.example.myapp",
+	"name": "ReactApp",
+	"description": "React application",
+	"baseUrl": "https://60bf-5-58-74-47.ngrok.io",
+	"authentication": {
+		"type": "none"
+	},
+
+	"vendor": {
+		"name": "Example, Inc.",
+		"url": "http://example.com"
+	},
+
+	"scopes": ["READ", "WRITE", "PROJECT_ADMIN"],
+
+	"modules": {
+		"generalPages": [
+			{
+				"url": "/dist/index.html",
+				"key": "react-app",
+				"location": "system.top.navigation.bar",
+				"name": {
+					"value": "React"
+				}
+			}
+		]
+	}
+}
